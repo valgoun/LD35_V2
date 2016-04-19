@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WATER
+  m_Shader: {fileID: 4800000, guid: 993d55977aeb94945b7fa8429aa62005, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _Waves_pattern
+        second:
+          m_Texture: {fileID: 2800000, guid: 2d73af631e67ee340b2a36b86cfc9f92, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Waves_pattern_normal_R
+        second:
+          m_Texture: {fileID: 2800000, guid: 70c229acb5a05ce40ae261ff7441a9cc, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Waves_pattern_normal_G
+        second:
+          m_Texture: {fileID: 2800000, guid: 38181e22f5342ea47b1d3d61aba69974, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Waves_pattern_normal_B
+        second:
+          m_Texture: {fileID: 2800000, guid: 4af4fdaba15a3734da334ca445931c04, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Waves_pattern_normal_A
+        second:
+          m_Texture: {fileID: 2800000, guid: c221f6da6984dce4e9bcbcfd5f268f7f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _foam_pattern
+        second:
+          m_Texture: {fileID: 2800000, guid: 17cca5bdec030e741b0bb4643816c2a8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _useless
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Refraction
+        second: 0.03418804
+      data:
+        first:
+          name: _Color_Blend
+        second: 126.7863
+      data:
+        first:
+          name: _Roughness
+        second: 0.3846154
+      data:
+        first:
+          name: _Metalness
+        second: 0
+      data:
+        first:
+          name: _Height
+        second: 0.02666162
+      data:
+        first:
+          name: _Tessaltion
+        second: 19.14231
+      data:
+        first:
+          name: _Opacity
+        second: 0.5
+      data:
+        first:
+          name: _PannerMacro_Xspeed
+        second: 0
+      data:
+        first:
+          name: _PannerMacro_Yspeed
+        second: 0
+      data:
+        first:
+          name: _PannerMicro_xspeed
+        second: 0
+      data:
+        first:
+          name: _PannerMicro_yspeed
+        second: 0
+      data:
+        first:
+          name: _Micro_water_scale
+        second: 1
+      data:
+        first:
+          name: _Macro_water_scale
+        second: 0
+      data:
+        first:
+          name: _Shore_waves_size
+        second: 0
+      data:
+        first:
+          name: _Shore_waves_strength
+        second: 1
+      data:
+        first:
+          name: _Shore_waves_speed
+        second: 0
+      data:
+        first:
+          name: _Sea_swell_height
+        second: 0.025
+      data:
+        first:
+          name: _Sea_swell_length
+        second: 1
+      data:
+        first:
+          name: _Sea_swell_speed
+        second: 0
+      data:
+        first:
+          name: _foam1_size
+        second: 1
+      data:
+        first:
+          name: _foam2_size
+        second: 1.478489
+      data:
+        first:
+          name: _foam_area
+        second: 0
+      data:
+        first:
+          name: _Foam_opacity
+        second: 0.3114368
+    m_Colors:
+      data:
+        first:
+          name: _Water_color_Shore
+        second: {r: 0.370891, g: 0.44279847, b: 0.5147059, a: 1}
+      data:
+        first:
+          name: _Water_color_Sea
+        second: {r: 0.67625433, g: 0.7708746, b: 0.7794118, a: 1}

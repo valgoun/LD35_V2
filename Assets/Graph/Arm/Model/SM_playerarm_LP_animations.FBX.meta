@@ -1,0 +1,1487 @@
+fileFormatVersion: 2
+guid: 736b7e9bb59be5646992ac0fae36ec27
+timeCreated: 1460999894
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_Arm
+    100002: Bone_Arm_FK
+    100004: Bone_Arm_IK
+    100006: Bone_Arm_Roll
+    100008: Bone_Clav
+    100010: Bone_ForeArm
+    100012: Bone_ForeArm_FK
+    100014: Bone_ForeArm_IK
+    100016: Bone_ForeArm_Roll1
+    100018: Bone_ForeArm_Roll2
+    100020: Bone_Hand
+    100022: Bone_Hand-nub
+    100024: Bone_Index2
+    100026: Bone_Index2 1
+    100028: Bone_Index3
+    100030: Bone_Index3-nub
+    100032: Bone_Middle1
+    100034: Bone_Middle2
+    100036: Bone_Middle3
+    100038: Bone_Middle3-nub
+    100040: Bone_Pinky1
+    100042: Bone_Pinky2
+    100044: Bone_Pinky3
+    100046: Bone_Pinky3-nub
+    100048: Bone_Thumb1
+    100050: Bone_Thumb2
+    100052: Bone_Thumb3
+    100054: Bone_Thumb3-nub
+    100056: Bone_Wrist
+    100058: Bone_Wrist_FK
+    100060: Bone_Wrist_IK
+    100062: Controller_IK_Goal
+    100064: IK Chain001
+    100066: Point001
+    100068: Point002
+    100070: SM_Arm_LP
+    100072: //RootNode
+    400000: Bone_Arm
+    400002: Bone_Arm_FK
+    400004: Bone_Arm_IK
+    400006: Bone_Arm_Roll
+    400008: Bone_Clav
+    400010: Bone_ForeArm
+    400012: Bone_ForeArm_FK
+    400014: Bone_ForeArm_IK
+    400016: Bone_ForeArm_Roll1
+    400018: Bone_ForeArm_Roll2
+    400020: Bone_Hand
+    400022: Bone_Hand-nub
+    400024: Bone_Index2
+    400026: Bone_Index2 1
+    400028: Bone_Index3
+    400030: Bone_Index3-nub
+    400032: Bone_Middle1
+    400034: Bone_Middle2
+    400036: Bone_Middle3
+    400038: Bone_Middle3-nub
+    400040: Bone_Pinky1
+    400042: Bone_Pinky2
+    400044: Bone_Pinky3
+    400046: Bone_Pinky3-nub
+    400048: Bone_Thumb1
+    400050: Bone_Thumb2
+    400052: Bone_Thumb3
+    400054: Bone_Thumb3-nub
+    400056: Bone_Wrist
+    400058: Bone_Wrist_FK
+    400060: Bone_Wrist_IK
+    400062: Controller_IK_Goal
+    400064: IK Chain001
+    400066: Point001
+    400068: Point002
+    400070: SM_Arm_LP
+    400072: //RootNode
+    4300000: SM_Arm_LP
+    7400000: j1_i
+    7400002: j1_a
+    7400004: j1_s
+    7400006: j2_i
+    7400008: j2_a
+    7400010: j2_s1
+    7400012: j2_s2
+    7400014: j3_i
+    7400016: j3_a
+    7400018: j3_s
+    7400020: j4_i
+    7400022: j4_a
+    7400024: j4_s
+    9500000: //RootNode
+    13700000: SM_Arm_LP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: j1_i
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 230
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j1_a
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j1_s
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j2_i
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j2_a
+      takeName: Take 001
+      firstFrame: 56
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j2_s1
+      takeName: Take 001
+      firstFrame: 75
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j2_s2
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j3_i
+      takeName: Take 001
+      firstFrame: 320
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j3_a
+      takeName: Take 001
+      firstFrame: 111
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j3_s
+      takeName: Take 001
+      firstFrame: 135
+      lastFrame: 139
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j4_i
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 380
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j4_a
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: j4_s
+      takeName: Take 001
+      firstFrame: 160
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bone_Clav
+        weight: 1
+      - path: Bone_Clav/Bone_Arm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_Arm_Roll
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_ForeArm_Roll2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Hand-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Index2/Bone_Index2 1/Bone_Index3/Bone_Index3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Middle1/Bone_Middle2/Bone_Middle3/Bone_Middle3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Pinky1/Bone_Pinky2/Bone_Pinky3/Bone_Pinky3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Hand/Bone_Thumb1/Bone_Thumb2/Bone_Thumb3/Bone_Thumb3-nub
+        weight: 1
+      - path: Bone_Clav/Bone_Arm/Bone_ForeArm/Bone_Wrist
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_FK/Bone_ForeArm_FK/Bone_Wrist_FK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK
+        weight: 1
+      - path: Bone_Clav/Bone_Arm_IK/Bone_ForeArm_IK/Bone_Wrist_IK
+        weight: 1
+      - path: Controller_IK_Goal
+        weight: 1
+      - path: Controller_IK_Goal/IK Chain001
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: SM_Arm_LP
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 8a622147c75d89248bc66437d3d4d0e2
+timeCreated: 1461006850
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone_Arm
+    100002: Bone_Arm_FK
+    100004: Bone_Arm_IK
+    100006: Bone_Arm_Roll
+    100008: Bone_Clav
+    100010: Bone_ForeArm
+    100012: Bone_ForeArm_FK
+    100014: Bone_ForeArm_IK
+    100016: Bone_ForeArm_Roll1
+    100018: Bone_ForeArm_Roll2
+    100020: Bone_Hand
+    100022: Bone_Hand-nub
+    100024: Bone_Index2
+    100026: Bone_Index2 1
+    100028: Bone_Index3
+    100030: Bone_Index3-nub
+    100032: Bone_Middle1
+    100034: Bone_Middle2
+    100036: Bone_Middle3
+    100038: Bone_Middle3-nub
+    100040: Bone_Pinky1
+    100042: Bone_Pinky2
+    100044: Bone_Pinky3
+    100046: Bone_Pinky3-nub
+    100048: Bone_Thumb1
+    100050: Bone_Thumb2
+    100052: Bone_Thumb3
+    100054: Bone_Thumb3-nub
+    100056: Bone_Wrist
+    100058: Bone_Wrist_FK
+    100060: Bone_Wrist_IK
+    100062: Controller_IK_Goal
+    100064: IK Chain001
+    100066: Point001
+    100068: Point002
+    100070: //RootNode
+    400000: Bone_Arm
+    400002: Bone_Arm_FK
+    400004: Bone_Arm_IK
+    400006: Bone_Arm_Roll
+    400008: Bone_Clav
+    400010: Bone_ForeArm
+    400012: Bone_ForeArm_FK
+    400014: Bone_ForeArm_IK
+    400016: Bone_ForeArm_Roll1
+    400018: Bone_ForeArm_Roll2
+    400020: Bone_Hand
+    400022: Bone_Hand-nub
+    400024: Bone_Index2
+    400026: Bone_Index2 1
+    400028: Bone_Index3
+    400030: Bone_Index3-nub
+    400032: Bone_Middle1
+    400034: Bone_Middle2
+    400036: Bone_Middle3
+    400038: Bone_Middle3-nub
+    400040: Bone_Pinky1
+    400042: Bone_Pinky2
+    400044: Bone_Pinky3
+    400046: Bone_Pinky3-nub
+    400048: Bone_Thumb1
+    400050: Bone_Thumb2
+    400052: Bone_Thumb3
+    400054: Bone_Thumb3-nub
+    400056: Bone_Wrist
+    400058: Bone_Wrist_FK
+    400060: Bone_Wrist_IK
+    400062: Controller_IK_Goal
+    400064: IK Chain001
+    400066: Point001
+    400068: Point002
+    400070: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

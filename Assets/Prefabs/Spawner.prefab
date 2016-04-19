@@ -1,0 +1,1996 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &123954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460758}
+  m_Layer: 0
+  m_Name: C
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 422454}
+  - 114: {fileID: 11434850}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &168724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 491192}
+  m_Layer: 0
+  m_Name: A
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &185140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 474532}
+  m_Layer: 0
+  m_Name: D
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 408340}
+  m_Layer: 0
+  m_Name: B
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &190394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 451650}
+  m_Layer: 0
+  m_Name: E
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &408340
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -20.5, y: 0, z: 8.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422454}
+  m_RootOrder: 1
+--- !u!4 &422454
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 491192}
+  - {fileID: 408340}
+  - {fileID: 460758}
+  - {fileID: 474532}
+  - {fileID: 451650}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &451650
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190394}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 129.3, y: 0, z: 41.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422454}
+  m_RootOrder: 4
+--- !u!4 &460758
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 86.2, y: 0, z: -40.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422454}
+  m_RootOrder: 2
+--- !u!4 &474532
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 185140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.5, y: 0, z: 98.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422454}
+  m_RootOrder: 3
+--- !u!4 &491192
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.9, y: 0, z: 61.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422454}
+  m_RootOrder: 0
+--- !u!114 &11434850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4784c8e601545f947949193f6fb0cd22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_waves:
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1.5
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1.5
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1.5
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 2
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 2
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 2
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 2
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 2
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1.5
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 3
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1.5
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 2
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0
+      initialDelay: 2
+      spwanSize: 1
+      spwanSizeModifier: 0
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 2
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 6
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 4
+      unitsPrefab:
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 8
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 8
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 8
+      unitsPrefab:
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 10
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 13
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  - m_data:
+    - spwanPoint: {fileID: 491192}
+      ressourcePoint: 15
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      - {fileID: 11467384, guid: 6bf4cee301c73cb40a0e22adccef8d50, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 474532}
+      ressourcePoint: 15
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 460758}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 408340}
+      ressourcePoint: 12
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+    - spwanPoint: {fileID: 451650}
+      ressourcePoint: 15
+      unitsPrefab:
+      - {fileID: 11440664, guid: 3b8b62d5e718c8e47991b66271de1c56, type: 2}
+      - {fileID: 11477670, guid: ad43081bf79d9cf4aa5965b4c54f4ca5, type: 2}
+      - {fileID: 11429242, guid: 3c33d8ecbcaab444eb9f1d326131cc54, type: 2}
+      - {fileID: 11403846, guid: 7a956c084e7b8f449a69937f11048e98, type: 2}
+      timeBetweenSpwan: 1
+      timeModifier: 0.25
+      initialDelay: 2
+      spwanSize: 2
+      spwanSizeModifier: 1
+      isOver: 0
+  m_ennemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 157632}
+  m_IsPrefabParent: 1
