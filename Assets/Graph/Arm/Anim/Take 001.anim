@@ -1512,7 +1512,24 @@ AnimationClip:
       m_RotationOrder: 4
     path: Controller_IK_Goal/IK Chain001
   m_CompressedRotationCurves: []
-  m_EulerCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.4727, y: 452.2016, z: -3.1311998}
+        inSlope: {x: 1.5756665, y: -1239.5886, z: 10.437332}
+        outSlope: {x: 1.5756665, y: -1239.5886, z: 10.437332}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: 0, y: 80.325, z: 0}
+        inSlope: {x: 1.5756665, y: -1239.5886, z: 10.437332}
+        outSlope: {x: 1.5756665, y: -1239.5886, z: 10.437332}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: FX_PowerGlove 1
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -3599,6 +3616,40 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Controller_IK_Goal/IK Chain001
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.972, y: -0.019, z: -0}
+        inSlope: {x: 0, y: 0.053333327, z: 0.3133333}
+        outSlope: {x: 0, y: 0.053333327, z: 0.3133333}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: -0.972, y: -0.003, z: 0.094}
+        inSlope: {x: 0, y: 0.053333327, z: 0.3133333}
+        outSlope: {x: 0, y: 0.053333327, z: 0.3133333}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.058, y: 0.068, z: 1.513}
+        inSlope: {x: -0.65, y: 0.21333311, z: 3.1299994}
+        outSlope: {x: -0.65, y: 0.21333311, z: 3.1299994}
+        tangentMode: 0
+      - time: 0.3
+        value: {x: -0.253, y: 0.13199994, z: 2.452}
+        inSlope: {x: -0.65, y: 0.21333311, z: 3.1299994}
+        outSlope: {x: -0.65, y: 0.21333311, z: 3.1299994}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: FX_PowerGlove 1
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -4145,14 +4196,14 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 100
-        inSlope: -214.28572
-        outSlope: -214.28572
+        value: 0
+        inSlope: 0
+        outSlope: 0
         tangentMode: 10
       - time: 0.46666667
         value: 0
-        inSlope: -214.28572
-        outSlope: -214.28572
+        inSlope: 0
+        outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -4195,6 +4246,76 @@ AnimationClip:
     attribute: material._lerp_arm01arm02
     path: SM_Arm_LP
     classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 1.5000001
+        outSlope: 1.5000001
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1
+        inSlope: 3.0000002
+        outSlope: 3.0000002
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._AnimTime
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 1.0714287
+        outSlope: 1.0714287
+        tangentMode: 10
+      - time: 0.76666665
+        value: 1
+        inSlope: 2.1428573
+        outSlope: 2.1428573
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._AnimTime
+    path: FX_PowerGlove 1/SM_FX_Cone
+    classID: 23
     script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 30
@@ -4330,6 +4451,18 @@ AnimationClip:
       classID: 4
       customType: 0
       isPPtrCurve: 0
+    - path: 3715754987
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - path: 936630731
+      attribute: 1
+      script: {fileID: 0}
+      classID: 4
+      customType: 0
+      isPPtrCurve: 0
     - path: 733558539
       attribute: 2
       script: {fileID: 0}
@@ -4479,6 +4612,12 @@ AnimationClip:
       script: {fileID: 0}
       classID: 4
       customType: 0
+      isPPtrCurve: 0
+    - path: 936630731
+      attribute: 4
+      script: {fileID: 0}
+      classID: 4
+      customType: 14
       isPPtrCurve: 0
     - path: 2232413881
       attribute: 2086281974
@@ -4493,16 +4632,28 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - path: 349067959
-      attribute: 2201909619
-      script: {fileID: 0}
-      classID: 137
-      customType: 20
-      isPPtrCurve: 0
-    - path: 349067959
       attribute: 998383126
       script: {fileID: 0}
       classID: 137
       customType: 20
+      isPPtrCurve: 0
+    - path: 3715754987
+      attribute: 2086281974
+      script: {fileID: 0}
+      classID: 1
+      customType: 0
+      isPPtrCurve: 0
+    - path: 3715754987
+      attribute: 2246535883
+      script: {fileID: 0}
+      classID: 23
+      customType: 22
+      isPPtrCurve: 0
+    - path: 2111627344
+      attribute: 2246535883
+      script: {fileID: 0}
+      classID: 23
+      customType: 22
       isPPtrCurve: 0
     - path: 733558539
       attribute: 1
@@ -4769,6 +4920,12 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - path: 349067959
+      attribute: 2201909619
+      script: {fileID: 0}
+      classID: 137
+      customType: 20
+      isPPtrCurve: 0
+    - path: 349067959
       attribute: 2386084182
       script: {fileID: 0}
       classID: 137
@@ -4780,7 +4937,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.63333356
+    m_StopTime: 0.76666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -19495,14 +19652,14 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - time: 0
-        value: 100
-        inSlope: -214.28572
-        outSlope: -214.28572
+        value: 0
+        inSlope: 0
+        outSlope: 0
         tangentMode: 10
       - time: 0.46666667
         value: 0
-        inSlope: -214.28572
-        outSlope: -214.28572
+        inSlope: 0
+        outSlope: 0
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
@@ -19545,6 +19702,256 @@ AnimationClip:
     attribute: material._lerp_arm01arm02
     path: SM_Arm_LP
     classID: 137
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      - time: 0.3
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 31
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.972
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: -0.972
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.019
+        inSlope: 0.053333327
+        outSlope: 0.053333327
+        tangentMode: 10
+      - time: 0.3
+        value: -0.003
+        inSlope: 0.053333327
+        outSlope: 0.053333327
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0
+        inSlope: 0.3133333
+        outSlope: 0.3133333
+        tangentMode: 10
+      - time: 0.3
+        value: 0.094
+        inSlope: 0.3133333
+        outSlope: 0.3133333
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 1.5000001
+        outSlope: 1.5000001
+        tangentMode: 10
+      - time: 0.6333333
+        value: 1
+        inSlope: 3.0000002
+        outSlope: 3.0000002
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._AnimTime
+    path: Bone_Clav/Bone_Arm/Bone_ForeArm/FX_PowerGlove 1/SM_FX_Cone
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.4727
+        inSlope: 1.5756665
+        outSlope: 1.5756665
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 1.5756665
+        outSlope: 1.5756665
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 452.2016
+        inSlope: -1239.5886
+        outSlope: -1239.5886
+        tangentMode: 10
+      - time: 0.3
+        value: 80.325
+        inSlope: -1239.5886
+        outSlope: -1239.5886
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -3.1311998
+        inSlope: 10.437332
+        outSlope: 10.437332
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 10.437332
+        outSlope: 10.437332
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -0.058
+        inSlope: -0.65
+        outSlope: -0.65
+        tangentMode: 10
+      - time: 0.3
+        value: -0.253
+        inSlope: -0.65
+        outSlope: -0.65
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0.068
+        inSlope: 0.21333311
+        outSlope: 0.21333311
+        tangentMode: 10
+      - time: 0.3
+        value: 0.13199994
+        inSlope: 0.21333311
+        outSlope: 0.21333311
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.513
+        inSlope: 3.1299994
+        outSlope: 3.1299994
+        tangentMode: 10
+      - time: 0.3
+        value: 2.452
+        inSlope: 3.1299994
+        outSlope: 3.1299994
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 0.3
+        value: 0
+        inSlope: 1.0714287
+        outSlope: 1.0714287
+        tangentMode: 10
+      - time: 0.76666665
+        value: 1
+        inSlope: 2.1428573
+        outSlope: 2.1428573
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._AnimTime
+    path: FX_PowerGlove 1/SM_FX_Cone
+    classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
@@ -24300,6 +24707,36 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: localEulerAngles.z
     path: Controller_IK_Goal/IK Chain001
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: FX_PowerGlove 1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: FX_PowerGlove 1
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
