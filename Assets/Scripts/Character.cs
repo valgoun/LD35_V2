@@ -3,6 +3,7 @@ using DG.Tweening;
 using System.Collections;
 using System;
 using DarkTonic.MasterAudio;
+using Colorful;
 
 public class Character : MonoBehaviour
 {
@@ -57,6 +58,13 @@ public class Character : MonoBehaviour
     [Header("Sounds")]
     public float fadeTimeLoopSound;
 
+    [Header("Death")]
+    public float xRotation;
+    public float yPosition;
+    public float tweenDuration;
+    public float fadeOutSoundsDuration;
+    public float volumeFade = 0.1f;
+
     private bool jumpEndCoroutine;
 
 
@@ -73,6 +81,8 @@ public class Character : MonoBehaviour
     private bool sprinting = false;
 
     private float pbFlyVolume;
+
+    private bool dead;
 
     public void Awake()
     {
@@ -131,6 +141,21 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (m_health <= 0.0f)
+        {
+            if (!dead)
+            {
+                dead = true;
+                Debug.Log("TES MORT!!!");
+                gameObject.GetComponent<Morphing>().enabled = false;
+                StopAllCoroutines();
+                StartCoroutine(Death());
+            }
+
+
+            return;
+        }
+
         //Camera X rotation
         m_camera.Rotate(-Input.GetAxis("Mouse Y") * m_mouseSensibility, 0, 0, Space.Self);
         //Camera Y rotation
@@ -196,6 +221,21 @@ public class Character : MonoBehaviour
 
         MovingSounds();
 
+    }
+
+    IEnumerator Death()
+    {
+        Vector3 v3 = new Vector3(xRotation, transform.rotation.y, transform.rotation.z);
+
+        transform.DORotate(v3, tweenDuration);
+        transform.DOMoveY(yPosition, tweenDuration);
+
+        MasterAudio.FadeAllPlaylistsToVolume(volumeFade, fadeOutSoundsDuration);
+        DOTween.To(() => MasterAudio.MasterVolumeLevel, x => MasterAudio.MasterVolumeLevel = x, volumeFade, fadeOutSoundsDuration);
+
+        UiManager.Instance.GameOver(m_camera.gameObject);
+
+        yield return null;
     }
 
     void MovingSounds()

@@ -3,6 +3,9 @@ using System.Collections;
 using UnityEngine.UI;
 using System;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
+using Colorful;
+
 
 public class UiManager : Singleton<UiManager>
 {
@@ -78,5 +81,27 @@ public class UiManager : Singleton<UiManager>
     public void UpdateEnemyNumber(int enemyNumber)
     {
         EnemyNumber.text = enemyNumber.ToString();
+    }
+
+    public void GameOver(GameObject camera)
+    {
+        for (int i = 0; i < 4; i++)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
+        transform.GetChild(4).gameObject.SetActive(true);
+        transform.GetChild(4).GetComponent<Image>().DOFade(1f, 1f).OnComplete(() =>
+        {
+            transform.GetChild(5).gameObject.SetActive(true);
+        });
+        var FV = camera.GetComponent<FastVignette>();
+        DOTween.To(() => FV.Darkness, x => FV.Darkness = x, 38f, 1f);
+        var BW = camera.GetComponent<GradientRampDynamic>();
+        DOTween.To(() => BW.Amount, x => BW.Amount = x, 1f, 1f);
+    }
+
+    public void ReloadMenu()
+    {
+        SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }
