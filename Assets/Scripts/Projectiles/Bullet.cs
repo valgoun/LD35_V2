@@ -31,7 +31,9 @@ public class Bullet : MonoBehaviour
         {
             var enemy = other.GetComponent<Enemy>();
             enemy.DamageFromPlayer(m_damage);
-            Destroy(gameObject);
+            GetComponent<SphereCollider>().enabled = false;
+            transform.GetChild(0).GetChild(1).gameObject.SetActive(false);
+            Destroy(gameObject, 2f);
         }
     }
 }

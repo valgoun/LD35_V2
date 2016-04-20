@@ -7,11 +7,13 @@ public class Tp : Skill
 {
     private Character m_chara;
 
+    private Transform m_camera;
     // Use this for initialization
     void Start()
     {
         m_chara = GetComponent<Character>();
-		enabled = false;
+        m_camera = m_chara.transform.GetChild(0).GetChild(0);
+        enabled = false;
     }
 
     private void use()
@@ -23,7 +25,7 @@ public class Tp : Skill
         {
             if (hit.collider.tag == "Ennemy")
             {
-                GetComponent<Rigidbody>().DOMove(hit.collider.transform.position, 0.5f);
+                GetComponent<Rigidbody>().DOMove(hit.collider.transform.position - m_camera.forward * 3, 0.2f);
             }
         }
     }
@@ -34,8 +36,9 @@ public class Tp : Skill
 
     }
 
-    public void setActive()
+    public override void setActive()
     {
         m_chara.m_special = use;
+        Debug.Log("hello");
     }
 }
