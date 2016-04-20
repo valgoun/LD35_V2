@@ -91,6 +91,9 @@ public class Character : MonoBehaviour
         m_rotationBobler = transform.GetChild(0);
         m_camera = m_rotationBobler.GetChild(0);
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         geantRunningVolume = MasterAudio.GetGroupVolume("Geant_RUNNING");
         sorcierRunningVolume = MasterAudio.GetGroupVolume("Sorcier_RUNNING");
         pbRunningVolume = MasterAudio.GetGroupVolume("Pb_RUN");
@@ -148,6 +151,8 @@ public class Character : MonoBehaviour
                 dead = true;
                 Debug.Log("TES MORT!!!");
                 gameObject.GetComponent<Morphing>().enabled = false;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 StopAllCoroutines();
                 StartCoroutine(Death());
             }
