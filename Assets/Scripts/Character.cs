@@ -361,7 +361,6 @@ public class Character : MonoBehaviour
         switch (Morphing.IndexForm)
         {
             case 0:
-                Debug.Log("sprint");
                 MasterAudio.FadeSoundGroupToVolume("Geant_RUNNING", geantRunningVolume, fadeTimeLoopSound);
                 MasterAudio.FadeSoundGroupToVolume("Geant_MOVING", 0, fadeTimeLoopSound);
                 break;
@@ -383,12 +382,19 @@ public class Character : MonoBehaviour
         m_speed *= m_sprintSpeedModifier;
         m_straffSpeed *= m_sprintStraffModifier;
         m_mouseSensibility *= m_sprintMouseModifier;
+        var RB = m_camera.GetComponent<RadialBlur>();
         while (Input.GetButton("Sprint"))
         {
+
             if (Input.GetButton("Vertical"))
             {
                 m_stamina -= m_staminaConsumption * Time.deltaTime;
+                RB.Strength = 0.34f;
                 UiManager.Instance.UpdateStamina(m_stamina / 100f);
+            }
+            else
+            {
+                RB.Strength = 0.0f;
             }
             if (m_stamina <= 0.0f)
             {
@@ -400,6 +406,7 @@ public class Character : MonoBehaviour
             }
             yield return new WaitForEndOfFrame();
         }
+        RB.Strength = 0.0f;
         m_speed /= m_sprintSpeedModifier;
         m_straffSpeed /= m_sprintStraffModifier;
         m_mouseSensibility /= m_sprintMouseModifier;
@@ -486,6 +493,15 @@ public class Character : MonoBehaviour
         //PushBack (enemyTransform);
         UiManager.Instance.UpdateVie(m_health / 100f);
         var DV = m_camera.GetComponent<DoubleVision>();
+        var FV = m_camera.GetComponent<FastVignette>();
+        FV.Mode = FastVignette.ColorMode.Colored;
+
+        DOTween.To(() => FV.Darkness, x => FV.Darkness = x, 38, 0.2f).OnComplete(() =>
+        {
+            FV.Mode = FastVignette.ColorMode.Classic;
+            FV.Darkness = 24.5f;
+        });
+
         DOTween.Shake(() =>
         {
             return new Vector3(DV.Displace.x, DV.Displace.y, 0);
@@ -498,6 +514,8 @@ public class Character : MonoBehaviour
         {
             DOTween.To(() => DV.Amount, x => DV.Amount = x, 0, 0.1f);
         });
+
+
         HitSound();
         CameraShaking();
     }

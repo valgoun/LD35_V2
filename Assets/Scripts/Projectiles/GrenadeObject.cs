@@ -24,6 +24,7 @@ public class GrenadeObject : MonoBehaviour
     {
         if (other.tag == "Terrain" || other.tag == "Ennemy")
         {
+            transform.GetChild(0).gameObject.SetActive(true);
             Collider[] candidates = Physics.OverlapSphere(transform.position, m_radius);
             foreach (Collider col in candidates)
             {
@@ -32,7 +33,7 @@ public class GrenadeObject : MonoBehaviour
                     col.GetComponent<Enemy>().DamageFromPlayer(m_degats);
                 }
             }
-            Destroy(gameObject);
+            Destroy(gameObject, 2f);
         }
     }
 }

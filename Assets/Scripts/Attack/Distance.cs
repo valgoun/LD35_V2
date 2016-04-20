@@ -10,6 +10,10 @@ public class Distance : Skill
     private float m_speed;
     [SerializeField]
     private float m_damages;
+    [SerializeField]
+    private Transform m_spawnPoint;
+    [SerializeField]
+    private float m_maxDistance;
 
     private Transform m_camera;
 
@@ -18,7 +22,7 @@ public class Distance : Skill
     {
         m_chara = GetComponent<Character>();
         m_camera = transform.GetChild(0).GetChild(0);
-		enabled = false;
+        enabled = false;
 
     }
 
@@ -30,14 +34,26 @@ public class Distance : Skill
 
     void use()
     {
-        GameObject bul = Instantiate(m_Bullet, m_camera.position, Quaternion.LookRotation(m_camera.forward, m_camera.up)) as GameObject;
+        Ray r = new Ray(m_camera.position, m_camera.forward);
+        RaycastHit hit;
+        GameObject bul;
+        if (Physics.Raycast(r, out hit, m_maxDistance))
+        {
+            bul = Instantiate(m_Bullet, m_spawnPoint.position, Quaternion.identity) as GameObject;
+            bul.transform.LookAt(hit.point);
+        }
+        else
+        {
+            bul = Instantiate(m_Bullet, m_spawnPoint.position, Quaternion.identity) as GameObject;
+            bul.transform.LookAt(m_camera.position + m_camera.forward * m_maxDistance);
+        }
         bul.GetComponent<Bullet>().m_speed = m_speed;
         bul.GetComponent<Bullet>().m_damage = m_damages;
     }
 
-	public override void setActive()
+    public override void setActive()
     {
-		Debug.Log ("Je suis un sorcier");
+        Debug.Log("Je suis un sorcier");
         m_chara.m_attack = use;
     }
 }
