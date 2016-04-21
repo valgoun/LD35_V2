@@ -2651,7 +2651,7 @@ MonoBehaviour:
     sliderValue: 0
   userDefinedSounds: []
   mechanimStateChangedSounds:
-  - isExpanded: 0
+  - isExpanded: 1
     useLayerFilter: 0
     useTagFilter: 0
     matchingLayers: 00000000
@@ -2666,8 +2666,8 @@ MonoBehaviour:
     mechEventPlayedForState: 0
     SoundEvents:
     - actionName: Your action name
-      isExpanded: 0
-      soundType: Archer_DEATH
+      isExpanded: 1
+      soundType: Enemy_DEATH
       allPlaylistControllersForGroupCmd: 0
       allSoundTypesForGroupCmd: 0
       allSoundTypesForBusCmd: 0
@@ -4039,11 +4039,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: mechanimStateChangedSounds.Array.data[0].SoundEvents.Array.data[0].isExpanded
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: mechanimStateChangedSounds.Array.data[0].isExpanded
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: arrowDamage
@@ -4053,6 +4053,10 @@ Prefab:
       propertyPath: model
       value: 
       objectReference: {fileID: 406880}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[0].SoundEvents.Array.data[0].soundType
+      value: Enemy_DEATH
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 108134}

@@ -65,6 +65,12 @@ public class Character : MonoBehaviour
     public float fadeOutSoundsDuration;
     public float volumeFade = 0.1f;
 
+	[Header("Lock Camera Rotation")]
+	public float minXRotation = -85;
+	public float maxXRotation = 85;
+
+	private float xAngle;
+
     private bool jumpEndCoroutine;
 
 
@@ -162,7 +168,11 @@ public class Character : MonoBehaviour
         }
 
         //Camera X rotation
-        m_camera.Rotate(-Input.GetAxis("Mouse Y") * m_mouseSensibility, 0, 0, Space.Self);
+        //m_camera.Rotate(-Input.GetAxis("Mouse Y") * m_mouseSensibility, 0, 0, Space.Self);
+		xAngle += Input.GetAxis ("Mouse Y") * m_mouseSensibility;
+		xAngle = Mathf.Clamp (xAngle, minXRotation, maxXRotation);
+		m_camera.transform.localEulerAngles = new Vector3 (-xAngle, m_camera.transform.localEulerAngles.y, m_camera.transform.localEulerAngles.z);
+
         //Camera Y rotation
         m_body.MoveRotation(Quaternion.Euler(transform.rotation.eulerAngles + new Vector3(0, Input.GetAxis("Mouse X") * m_mouseSensibility, 0)));
         //Character Normal moves

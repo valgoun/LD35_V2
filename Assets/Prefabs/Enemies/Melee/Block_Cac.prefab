@@ -2468,7 +2468,7 @@ MonoBehaviour:
     sliderValue: 0
   userDefinedSounds: []
   mechanimStateChangedSounds:
-  - isExpanded: 1
+  - isExpanded: 0
     useLayerFilter: 0
     useTagFilter: 0
     matchingLayers: 00000000
@@ -2483,8 +2483,66 @@ MonoBehaviour:
     mechEventPlayedForState: 0
     SoundEvents:
     - actionName: Your action name
-      isExpanded: 0
-      soundType: Archer_DEATH
+      isExpanded: 1
+      soundType: Enemy_DEATH
+      allPlaylistControllersForGroupCmd: 0
+      allSoundTypesForGroupCmd: 0
+      allSoundTypesForBusCmd: 0
+      volume: 1
+      useFixedPitch: 0
+      pitch: 1
+      emitParticles: 0
+      particleCountToEmit: 1
+      delaySound: 0
+      currentSoundFunctionType: 0
+      currentPlaylistCommand: 0
+      currentSoundGroupCommand: 0
+      currentBusCommand: 0
+      currentCustomEventCommand: 0
+      currentGlobalCommand: 0
+      currentMixerCommand: 0
+      snapshotToTransitionTo: {fileID: 0}
+      snapshotTransitionTime: 1
+      snapshotsToBlend:
+      - snapshot: {fileID: 0}
+        weight: 1
+      currentPersistentSettingsCommand: 0
+      busName: 
+      playlistName: 
+      playlistControllerName: 
+      startPlaylist: 1
+      fadeVolume: 0
+      fadeTime: 1
+      targetVolMode: 0
+      clipName: '[None]'
+      variationType: 1
+      variationName: 
+      theCustomEventName: 
+    mouseDragStopMode: 0
+    mouseDragFadeOutTime: 1
+    retriggerLimitMode: 0
+    limitPerXFrm: 0
+    limitPerXSec: 0
+    triggeredLastFrame: -100
+    triggeredLastTime: -100
+    sliderValue: 0
+  - isExpanded: 0
+    useLayerFilter: 0
+    useTagFilter: 0
+    matchingLayers: 00000000
+    matchingTags:
+    - Default
+    customSoundActive: 0
+    isCustomEvent: 0
+    customEventName: 
+    mechanimEventActive: 1
+    isMechanimStateCheckEvent: 1
+    mechanimStateName: attack3
+    mechEventPlayedForState: 0
+    SoundEvents:
+    - actionName: Your action name
+      isExpanded: 1
+      soundType: Guerrier_ATTACK
       allPlaylistControllersForGroupCmd: 0
       allSoundTypesForGroupCmd: 0
       allSoundTypesForBusCmd: 0
@@ -2902,6 +2960,10 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: distanceSightEnemy
       value: 300
       objectReference: {fileID: 0}
@@ -2913,6 +2975,30 @@ Prefab:
       propertyPath: model
       value: 
       objectReference: {fileID: 407116}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[0].SoundEvents.Array.data[0].isExpanded
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[0].SoundEvents.Array.data[0].soundType
+      value: Enemy_DEATH
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[0].isExpanded
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[1].mechanimStateName
+      value: attack3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[1].SoundEvents.Array.data[0].soundType
+      value: Guerrier_ATTACK
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mechanimStateChangedSounds.Array.data[1].isExpanded
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 167416}

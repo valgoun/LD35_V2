@@ -23,10 +23,11 @@ public class ArrowScript : MonoBehaviour
 
 		if(other.gameObject.tag == "Ennemy" && Time.time - time > 0.2f)
 		{
+			gameObject.GetComponent<MeshCollider> ().enabled = false;
 			GameObject.Destroy(gameObject);
 		}
 
-		if(other.gameObject.tag != "Ennemy" && other.gameObject.tag != "Player")
+		if(other.gameObject.tag == "Terrain" && other.gameObject.tag == "Tree")
 		{
 			StopMovement ();
 		}
@@ -35,6 +36,7 @@ public class ArrowScript : MonoBehaviour
 	void StopMovement ()
 	{
 		GameObject.Destroy(GetComponent<Rigidbody>());
+		gameObject.GetComponent<MeshCollider> ().enabled = false;
 
 		StartCoroutine (WaitBeforeDestroy ());
 	}
