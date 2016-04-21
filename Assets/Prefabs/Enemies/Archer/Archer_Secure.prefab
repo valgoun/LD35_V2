@@ -1487,6 +1487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 3
+  model: {fileID: 406880}
   health: 100
   armor: 0
   timeBeforeDeath: 2
@@ -4048,6 +4049,10 @@ Prefab:
       propertyPath: arrowDamage
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: model
+      value: 
+      objectReference: {fileID: 406880}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 108134}
