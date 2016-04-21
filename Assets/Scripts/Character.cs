@@ -489,6 +489,7 @@ public class Character : MonoBehaviour
 
     public void Damages(float damage, Vector3 enemyTransform)
     {
+		Debug.Log(damage);
         m_health -= (damage - m_armor);
         //PushBack (enemyTransform);
         UiManager.Instance.UpdateVie(m_health / 100f);
@@ -522,18 +523,33 @@ public class Character : MonoBehaviour
 
     public void Damages(float damage)
     {
+		Debug.Log(damage);
 
         m_health -= Mathf.Clamp(damage - m_armor, 0, 100);
         UiManager.Instance.UpdateVie(m_health / 100f);
-        var DV = m_camera.GetComponent<DoubleVision>();
-        DOTween.Shake(() =>
-        {
-            return new Vector3(DV.Displace.x, DV.Displace.y, DV.Amount);
-        }, x =>
-        {
-            DV.Displace = new Vector2(x.x, x.y);
-            DV.Amount = x.z;
-        }, 0.2f);
+		var DV = m_camera.GetComponent<DoubleVision>();
+		var FV = m_camera.GetComponent<FastVignette>();
+		FV.Mode = FastVignette.ColorMode.Colored;
+
+		DOTween.To(() => FV.Darkness, x => FV.Darkness = x, 38, 0.2f).OnComplete(() =>
+			{
+				FV.Mode = FastVignette.ColorMode.Classic;
+				FV.Darkness = 24.5f;
+			});
+
+		DOTween.Shake(() =>
+			{
+				return new Vector3(DV.Displace.x, DV.Displace.y, 0);
+			}, x =>
+			{
+				DV.Displace = new Vector2(x.x, x.y);
+			}, 0.2f, new Vector3(5, 5, 5), 10, 0);
+
+		DOTween.To(() => DV.Amount, x => DV.Amount = x, 1, 0.1f).OnComplete(() =>
+			{
+				DOTween.To(() => DV.Amount, x => DV.Amount = x, 0, 0.1f);
+			});
+		
         HitSound();
         CameraShaking();
     }

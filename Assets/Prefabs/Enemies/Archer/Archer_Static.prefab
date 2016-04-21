@@ -1515,7 +1515,7 @@ MonoBehaviour:
   health: 100
   armor: 0
   timeBeforeDeath: 2
-  damageToPlayer: 5
+  damageToPlayer: 2
   attackCollider: {fileID: 0}
   attackCollider2: {fileID: 13657420}
   moveSpeed: 5
@@ -3985,6 +3985,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: arrowDamage
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: damageToPlayer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
