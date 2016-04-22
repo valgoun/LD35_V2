@@ -17,6 +17,7 @@ public class enemyDeath : RAINAction
         //Debug.Log(ai.Body.name + " is dead");
         ai.WorkingMemory.SetItem("dead", true);
         ai.Body.GetComponent<Animator>().SetTrigger("Death");
+		MobSpwaner.Instance.Remove(ai.Body.gameObject);
         return ActionResult.SUCCESS;
     }
 

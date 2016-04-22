@@ -14,6 +14,11 @@ public class StaticClose : Enemy
 	void Update () 
 	{
 		base.Update ();
+
+		if (enemyAI.WorkingMemory.GetItem<bool> ("dead") == true)
+		{
+			attackCollider.enabled = false;
+		}
 	}
 
 

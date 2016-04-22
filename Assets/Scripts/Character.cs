@@ -499,7 +499,7 @@ public class Character : MonoBehaviour
 
     public void Damages(float damage, Vector3 enemyTransform)
     {
-		Debug.Log(damage);
+		//Debug.Log(damage);
         m_health -= (damage - m_armor);
         //PushBack (enemyTransform);
         UiManager.Instance.UpdateVie(m_health / 100f);
@@ -533,7 +533,7 @@ public class Character : MonoBehaviour
 
     public void Damages(float damage)
     {
-		Debug.Log(damage);
+		//Debug.Log(damage);
 
         m_health -= Mathf.Clamp(damage - m_armor, 0, 100);
         UiManager.Instance.UpdateVie(m_health / 100f);

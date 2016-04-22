@@ -31,6 +31,10 @@ public class Block : Enemy
         enemyAI.WorkingMemory.SetItem("isBlocking", m_isBlocking);
         enemyAI.WorkingMemory.SetItem("isStraffing", distanceFromPlayer <= straffDistance);
         enemyAI.WorkingMemory.SetItem("StraffPosition", transform.position + transform.right * m_straffDirection);
+
+		if (enemyAI.WorkingMemory.GetItem<bool> ("dead") == true)
+			attackCollider.enabled = false;
+			
     }
 
     public override void DamageFromPlayer(float damage)

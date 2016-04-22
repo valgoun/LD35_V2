@@ -78,7 +78,7 @@ public class MobSpwaner : Singleton<MobSpwaner>
                     m_waveSpawned = false;
             }
         }
-        yield return new WaitUntil(() =>
+		yield return new WaitUntil(() =>
         {
             return m_enemies.Count == 0;
         });

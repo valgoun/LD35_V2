@@ -2642,6 +2642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 0
   model: {fileID: 407116}
+  rendererCP: {fileID: 13741218}
   health: 100
   armor: 0
   timeBeforeDeath: 2
@@ -2999,6 +3000,10 @@ Prefab:
       propertyPath: mechanimStateChangedSounds.Array.data[1].isExpanded
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rendererCP
+      value: 
+      objectReference: {fileID: 13741218}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 167416}

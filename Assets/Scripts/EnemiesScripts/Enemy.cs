@@ -40,6 +40,8 @@ public class Enemy : MonoBehaviour
 
     protected bool sprinting;
 
+	protected SkinnedMeshRenderer rendererCP;
+
     // Use this for initialization
     protected void Start()
     {
@@ -52,6 +54,7 @@ public class Enemy : MonoBehaviour
         enemyAI.WorkingMemory.SetItem("health", health);
         enemyAI.WorkingMemory.SetItem("timeBeforeDeath", timeBeforeDeath);
         model.GetComponent<Renderer>().material.EnableKeyword("_EMISSION");
+		rendererCP = model.GetComponent<SkinnedMeshRenderer> ();
     }
 
     // Update is called once per frame
@@ -95,6 +98,20 @@ public class Enemy : MonoBehaviour
             MasterAudio.PlaySound3DAtTransform("Enemy_HIT", transform);
         }
     }
+
+	public void WaitBeforeDestroyVoid ()
+	{
+		StartCoroutine (WaitBeforeDestroy ());
+	}
+
+	IEnumerator WaitBeforeDestroy ()
+	{
+		
+		yield return new WaitUntil(()=> distanceFromPlayer > 40 && rendererCP.isVisible == false);
+
+		//Debug.Log ("I Have Waited !");
+		Destroy (gameObject);
+	}
 
     IEnumerator Sprint()
     {

@@ -31,6 +31,9 @@ public class StaticDistance : Enemy
 		base.Update ();
 
 		GetCloserToPlayer ();
+
+		if (enemyAI.WorkingMemory.GetItem<bool> ("dead") == true)
+			attackCollider2.enabled = false;
 	}
 
 	void GetCloserToPlayer ()

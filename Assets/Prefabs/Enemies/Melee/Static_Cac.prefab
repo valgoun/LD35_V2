@@ -2700,6 +2700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cost: 1
   model: {fileID: 437748}
+  rendererCP: {fileID: 13709432}
   health: 100
   armor: 0
   timeBeforeDeath: 2
@@ -2859,6 +2860,10 @@ Prefab:
       propertyPath: mechanimStateChangedSounds.Array.data[1].SoundEvents.Array.data[0].soundType
       value: Guerrier_ATTACK
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: rendererCP
+      value: 
+      objectReference: {fileID: 13709432}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 156046}
